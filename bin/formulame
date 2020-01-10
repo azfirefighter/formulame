@@ -5,7 +5,12 @@
 require 'vendor/autoload.php';
 use Sodecl\Formulame\classes\Application;
 
-$config = require dirname(__DIR__).'/src/config/config.php';
+$file = dirname('../').'/config.formulame.php';
+if (!file_exists($file)){
+    die('Please create a config.formulame.php file in the root of your app. Never commit that file to version control.'.PHP_EOL.'You can use the template provided in vendor/sodecl/formulame/src/config/config.example.php');
+}
+$config = require $file;
+
 $app = new Application($config);
 
 $app->run();
