@@ -1,7 +1,7 @@
 {
     "name": "sodecl/formulame",
     "description": "PHP package that generates html forms based on database",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
