@@ -3,7 +3,7 @@ Small php package that creates html forms from database
 
 # Instalation
 
-`composer require sodecl/formulame`
+`composer require sodecl/formulame --dev`
 
 # Usage 
 First you need to create your config. For this you can use the example shipped with the library. 
