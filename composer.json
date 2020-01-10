@@ -1,0 +1,20 @@
+{
+    "name": "sodecl/formulame",
+    "description": "PHP package that generates html forms based on database",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Fuentes",
+            "email": "cfuentess2010@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sodecl\\Formulame\\":"src/"
+        }
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}

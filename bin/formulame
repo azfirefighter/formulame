@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+
+<?php
+
+require 'vendor/autoload.php';
+use Sodecl\Formulame\classes\Application;
+
+$config = require dirname(__DIR__).'/src/config/config.php';
+$app = new Application($config);
+
+$app->run();
