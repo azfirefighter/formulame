@@ -15,5 +15,7 @@
     },
     "require": {
         "ext-pdo": "*"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
